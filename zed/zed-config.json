@@ -1,0 +1,91 @@
+{
+  "cli_default_open_behavior": "existing_window",
+  "outline_panel": {
+    "dock": "right"
+  },
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    }
+  },
+  "agent": {
+    "favorite_models": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.4",
+        "enable_thinking": false
+      }
+    ],
+    "tool_permissions": {
+      "default": "allow"
+    },
+    "default_model": {
+      "enable_thinking": false,
+      "provider": "openai",
+      "model": "gpt-5.4"
+    },
+    "default_profile": "write",
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "right"
+  },
+  "terminal": {
+    "shell": {
+      "program": "bash"
+    }
+  },
+  "vim_mode": false,
+  "project_panel": {
+    "dock": "right",
+    "auto_fold_dirs": false
+  },
+  "base_keymap": "VSCode",
+  "sticky_scroll": {
+    "enabled": true
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  "file_types": {
+    "typescriptreact": ["*.ts"]
+  },
+  "colorize_brackets": true,
+  "linked_edits": true,
+  "soft_wrap": "editor_width",
+  "icon_theme": {
+    "mode": "light",
+    "light": "Zed (Default)",
+    "dark": "Material Icon Theme"
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Gruvbox Dark Hard"
+  },
+  "get-tree": {
+    "always_exclude": [".git", "node_modules", "target", "venv"]
+  }
+}
