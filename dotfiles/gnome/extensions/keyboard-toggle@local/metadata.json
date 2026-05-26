@@ -1,0 +1,6 @@
+{
+  "name": "Keyboard Toggle",
+  "description": "Toggle keyboard on/off from Quick Settings panel (Wayland compatible)",
+  "uuid": "keyboard-toggle@local",
+  "shell-version": ["46"]
+}
