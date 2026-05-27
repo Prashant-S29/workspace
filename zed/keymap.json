@@ -1,0 +1,35 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-enter": "editor::NewlineBelow",
+      "ctrl-shift-enter": "assistant::InlineAssist",
+      "ctrl-shift-c": [
+        "task::Spawn",
+        { "task_name": "Copy with File Context" },
+      ],
+      "ctrl-shift-alt-c": [
+        "task::Spawn",
+        { "task_name": "Copy Whole File with Context" },
+      ],
+    },
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-shift-s": "pane::SplitRight",
+    },
+  },
+]
