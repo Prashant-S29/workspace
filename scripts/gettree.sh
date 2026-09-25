@@ -4,7 +4,7 @@ ROOT=$(basename "$PWD")
 echo "$ROOT"
 
 # Ignore patterns (extend as needed)
-IGNORE_DIRS="node_modules|.git|dist|build|.turbo|.next|target"
+IGNORE_DIRS="node_modules|.git|dist|build|.turbo|.next|target|.output"
 
 # Get all files (real filesystem)
 FILES=$(find . -type f \

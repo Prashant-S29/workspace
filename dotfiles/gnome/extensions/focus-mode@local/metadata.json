@@ -1,0 +1,6 @@
+{
+  "name": "Focus Mode",
+  "description": "Play sounds on key presses when Focus Mode is active",
+  "uuid": "focus-mode@local",
+  "shell-version": ["46"]
+}
